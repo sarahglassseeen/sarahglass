@@ -1,0 +1,477 @@
+<!--
+                          ,
+   ,-.       _,---._ __  / \
+  /  )    .-'       `./ /   \
+ (  (   ,'            `/    /|
+  \  `-"             \'\   / |
+   `.              ,  \ \ /  |
+    /`.          ,'-`----Y   |
+   (            ; Hentai |   |
+   |  ,-.    ,-'   and   |  /
+   |  | (   |     Sex    | /
+   )  |  \  `.___________|/
+   `--'   `--'
+
+I am Sarah.Young programmer in Vietnam!
+
+-->
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Hey!Welcome</title>
+	<link rel="stylesheet" type="text/css" href="main.css">
+</head>
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+<body>
+</head>
+<style>
+  body {
+      margin: 0;
+      background-color: #f0f0f0; /* Màu nền */
+  }
+
+  #fps-display {
+      position: fixed;
+      top: 10px;
+      right: 10px;
+      font-size: 18px;
+      color: #ff0000; /* Màu đỏ cho FPS */
+  }
+</style>
+</head>
+<body>
+<div id="fps-display"></div>
+
+<script>
+  var fpsDisplay = document.getElementById('fps-display');
+  var fps = 0;
+  var lastTime = performance.now();
+
+  function updateFPS() {
+      var currentTime = performance.now();
+      var deltaTime = currentTime - lastTime;
+      fps = 1000 / deltaTime;
+      lastTime = currentTime;
+
+      // Hiển thị FPS với một số thập phân
+      fpsDisplay.textContent = `FPS: ${fps.toFixed(2)}`;
+  }
+
+  // Cập nhật FPS mỗi giây
+  setInterval(updateFPS, 1000);
+
+  // Cập nhật FPS lần đầu
+  updateFPS();
+</script>
+
+<style>
+  body {
+      font-family: Arial, sans-serif;
+      text-align: center;
+      margin: 0;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      background-color: #f2f2f2;
+  }
+  #myModal {
+      display: none;
+      position: fixed;
+      z-index: 1;
+      background-color: rgba(0, 0, 0, 0.4);
+      width: 100%;
+      height: 100%;
+      top: 0;
+      left: 0;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+  }
+
+  #modal-content {
+      background-color: white; 
+      color: black; 
+      padding: 10px;
+      border: 1px solid #888;
+      width: 80%;
+      max-width: 500px;
+      text-align: left;
+  }
+
+  #closeBtn {
+      color: #888;
+      float: right;
+      font-size: 28px;
+      font-weight: bold;
+      cursor: pointer;
+  }
+
+  #closeBtn:hover {
+      color: black;
+  }
+
+  h2 {
+      color: #00ced1; 
+      font-size: 24px; 
+  }
+
+  #modal-content p {
+      color: pink; 
+  }
+
+  #modal-content button {
+      color: #00ced1; 
+  }
+</style>
+</head>
+<body>
+
+<script>
+  setTimeout(function() {
+      openModal();
+  }, 30);
+  
+  function openModal() {
+      document.getElementById('myModal').style.display = 'flex';
+  }
+  
+  function closeModal() {
+      document.getElementById('myModal').style.display = 'none';
+  }
+  </script>
+  
+  <div id="myModal">
+  <div id="modal-content">
+      <span id="closeBtn" onclick="closeModal()">&times;</span>
+      <h2>𝑾𝒆𝒍𝒄𝒐𝒎𝒆 𝒕𝒐</h2>
+      <p style="color: rgb(255, 196, 192);">𝐂h𝐚̀o m𝐮̛̀n𝐠 𝐛ạ𝐧 đế𝐧 𝐯ớ𝐢 𝐰e𝐛s𝐢t𝐞 𝐜ủa 𝐒a𝐫a𝐡</p>
+      <button style="color: #00ced1;" onclick="closeModal()">OK</button>
+  </div>
+  </div>
+      
+    </div>
+
+<body>
+	<main>
+		<header>
+		<img src="./img/logo.jpg">
+		<h1><Admin-Sarah>Admin-Sarah</Admin-Sarah></h1>
+    <style>
+      #welcome-text {
+        font-size: 20px; 
+        font-weight: bold;
+        text-align: center;
+        margin-top: 0dvi;
+        color: #0077cc; 
+      }
+    </style>
+  </head>
+  <body>
+  
+  
+  <div id="welcome-text"></div>
+  
+  <script>
+    const welcomeText = "𝙒𝙚𝙡𝙘𝙤𝙢𝙚 𝙩𝙤 𝙎𝙖𝙧𝙖𝙝 𝙬𝙚𝙗𝙨𝙞𝙩𝙚, 𝙝𝙖𝙫𝙚 𝙖 𝙣𝙞𝙘𝙚 𝙙𝙖𝙮";
+    const welcomeElement = document.getElementById("welcome-text");
+  
+    function displayText(index) {
+      if (index < welcomeText.length) {
+        welcomeElement.innerHTML += welcomeText.charAt(index);
+        index++;
+        setTimeout(function () {
+          displayText(index);
+        }, 150);
+      } else {
+        
+        setTimeout(function () {
+          welcomeElement.innerHTML = ""; 
+          displayText(0); 
+        }, 10);
+      }
+    }
+  
+    document.addEventListener("DOMContentLoaded", function () {
+      displayText(0);
+    });
+  
+    
+    window.addEventListener("beforeunload", function () {
+      
+    });
+  </script>
+  <style>
+    body {
+        background-color: #0077cc; /* Màu xanh nước biển */
+        color: #ffffff; /* Màu chữ trắng */
+        font-family: 'Arial', sans-serif;
+        text-align: center;
+        margin: 10px;
+    }
+
+    #date-time {
+        font-size: 2em;
+        margin-top: 5px;
+    }
+
+    .digit {
+        color: #00ccff; /* Màu xanh nhạt cho chữ số */
+    }
+</style>
+</head>
+<body>
+<div id="date-time"></div>
+
+<script>
+    function updateDateTime() {
+        var now = new Date();
+        var day = now.getDate();
+        var month = now.getMonth() + 1;
+        var year = now.getFullYear();
+        var hours = now.getHours();
+        var minutes = now.getMinutes();
+        var seconds = now.getSeconds();
+
+       
+        var formattedDateTime = `${day}/${month}/${year} ${hours}:${minutes}:${seconds}`;
+
+       
+        var displayDateTime = formattedDateTime.split('').map(function (char) {
+            if (char.match(/[0-9]/)) {
+                return `<span class="digit">${char}</span>`;
+            }
+            return char;
+        }).join('');
+
+        
+        document.getElementById('date-time').innerHTML = displayDateTime;
+    }
+
+    setInterval(updateDateTime, 1000);
+
+
+    updateDateTime();
+</script>
+	<ul>
+		<li>
+			<a href="https://www.tiktok.com/@sennsarahglass"> <img src="./img/tiktok.png" style="
+    width: 30px;
+    height: 30px;
+    padding-bottom: 10px;"
+    >Tiktok</a>
+		</li>
+        
+		<li>
+			<a href="https://www.facebook.com/SennSaraGall"><img src="./img/facebook.png"
+				style="
+    width: 30px;
+    height: 30px;
+    padding-bottom: 10px;"
+
+    >Facebook</a>
+		</li>
+		<li>
+			<a href="https://www.youtube.com/channel/UCNsl6cuCzUtQ50y1_tHW0WQ"><img src="./img/youtube.png"
+				style="
+    width: 30px;
+    height: 30px;
+    padding-bottom: 10px;"
+    >Youtube</a>
+		</li>
+	</ul>
+  <div>
+    <p>Js: <progress value="50" max="100"></progress> 50%</p>  
+    <p>Html: <progress value="80" max="100"></progress> 80%</p>
+    <p>Css: <progress value="70" max="100"></progress>70%</p>
+  </div>
+
+  <script>
+    document.addEventListener("DOMContentLoaded", function() {
+    var imageElement = document.createElement("img");
+    var imageSarah = document.createElement("div");
+    imageSarah.className = "image";
+    imageSarah.style.position = "fixed";
+    imageSarah.style.right = "0px";
+    imageSarah.style.bottom = "0px";
+    imageSarah.style.zIndex = "-1";
+    var css = `
+        ::-webkit-scrollbar {
+            width: 6px;
+        }
+        ::-webkit-scrollbar-track {
+            box-shadow: inset 0 0 5px rgb(106, 96, 255);
+            border-radius: 10px;
+        }
+        ::-webkit-scrollbar-thumb {
+            background: rgb(0, 255, 98);
+            border-radius: 10px;
+        }
+        ::-webkit-scrollbar-thumb:hover {
+            background: #00ffbc;
+        }
+    `;
+    var style = document.createElement("style");
+    style.appendChild(document.createTextNode(css));
+    document.head.appendChild(style);
+    var mediaQuery = window.matchMedia("(max-width: 768px)");
+    if (mediaQuery.matches) {
+    imageSarah.style.display = "none";
+    }
+    
+});
+const Sarah_List = [
+    
+    "./nhac/catdoinoisau.mp3",
+    "./nhac/phodalenden.mp3",
+    "./nhac/nhinlainguoicongaianhtungratnangniu.mp3",
+    "./nhac/tuyetsac.mp3"
+
+
+];
+
+let index = Math.floor(Math.random() * Sarah_List.length);
+const audio = new Audio(Sarah_List[index]);
+function SarahAudio() {
+  audio.play();
+}
+document.addEventListener("click", SarahAudio);
+audio.addEventListener("ended", function() {
+  index = (index + 1) % Sarah_List.length;
+  audio.src = Sarah_List[index];
+  audio.play();
+});
+
+function __onCreate() {
+    audio.play();
+}
+</script>
+</body>
+</html>
+</html>
+
+	    
+	</head>
+<body>
+  <style>
+  @-webkit-keyframes snowflakes-fall {
+    0% {top:-10%}
+    100% {top:100%}
+  }
+  @-webkit-keyframes snowflakes-shake {
+    0%,100% {-webkit-transform:translateX(0);transform:translateX(0)}
+    50% {-webkit-transform:translateX(80px);transform:translateX(80px)}
+  }
+  @keyframes snowflakes-fall {
+    0% {top:-10%}
+    100% {top:100%}
+  }
+  @keyframes snowflakes-shake {
+    0%,100%{ transform:translateX(0)}
+    50% {transform:translateX(80px)}
+  }
+  .button3x{display:table;border-radius:4px;cursor:pointer;border:double #eee;font-weight:500;text-transform:uppercase;color:#FFF;background:linear-gradient(135deg, #de7921 25%, #E00000);margin:25px auto 0;padding:10px 20px;font-size:15px;transition:all 1s}
+.button3x:hover{color:#fff;opacity:0.8;box-shadow:0 0 18px 18px rgba(80,80,80,0)}
+  .snowflake {
+    color: #fff;
+    font-size: 1em;
+    font-family: Arial, sans-serif;
+    text-shadow: 0 0 5px #000;
+    position:fixed;
+    top:-10%;
+    z-index:9999;
+    -webkit-user-select:none;
+    -moz-user-select:none;
+    -ms-user-select:none;
+    user-select:none;
+    cursor:default;
+    -webkit-animation-name:snowflakes-fall,snowflakes-shake;
+    -webkit-animation-duration:10s,3s;
+    -webkit-animation-timing-function:linear,ease-in-out;
+    -webkit-animation-iteration-count:infinite,infinite;
+    -webkit-animation-play-state:running,running;
+    animation-name:snowflakes-fall,snowflakes-shake;
+    animation-duration:10s,3s;
+    animation-timing-function:linear,ease-in-out;
+    animation-iteration-count:infinite,infinite;
+    animation-play-state:running,running;
+  }
+  .snowflake:nth-of-type(0){
+    left:1%;-webkit-animation-delay:0s,0s;animation-delay:0s,0s
+  }
+  .snowflake:nth-of-type(1){
+    left:10%;-webkit-animation-delay:1s,1s;animation-delay:1s,1s
+  }
+  .snowflake:nth-of-type(2){
+    left:20%;-webkit-animation-delay:6s,.5s;animation-delay:6s,.5s
+  }
+  .snowflake:nth-of-type(3){
+    left:30%;-webkit-animation-delay:4s,2s;animation-delay:4s,2s
+  }
+  .snowflake:nth-of-type(4){
+    left:40%;-webkit-animation-delay:2s,2s;animation-delay:2s,2s
+  }
+  .snowflake:nth-of-type(5){
+    left:50%;-webkit-animation-delay:8s,3s;animation-delay:8s,3s
+  }
+  .snowflake:nth-of-type(6){
+    left:60%;-webkit-animation-delay:6s,2s;animation-delay:6s,2s
+  }
+  .snowflake:nth-of-type(7){
+    left:70%;-webkit-animation-delay:2.5s,1s;animation-delay:2.5s,1s
+  }
+  .snowflake:nth-of-type(8){
+    left:80%;-webkit-animation-delay:1s,0s;animation-delay:1s,0s
+  }
+  .snowflake:nth-of-type(9){
+    left:90%;-webkit-animation-delay:3s,1.5s;animation-delay:3s,1.5s
+  }
+  .snowflake:nth-of-type(10){
+    left:25%;-webkit-animation-delay:2s,0s;animation-delay:2s,0s
+  }
+  .snowflake:nth-of-type(11){
+    left:65%;-webkit-animation-delay:4s,2.5s;animation-delay:4s,2.5s
+  }
+  .snowflake:nth-of-type(11){
+    left:65%;-webkit-animation-delay:4s,2.5s;animation-delay:4s,2.5s
+  }
+</style>
+<div class="snowflakes" aria-hidden="true"></div>
+<div class="snowflake">🌸</div>
+<div class="snowflake">🌸</div>
+<div class="snowflake">🌸</div>
+<div class="snowflake">🌸</div>
+<div class="snowflake">🌸</div>
+<div class="snowflake">🌸</div>
+<div class="snowflake">🌸</div>
+<div class="snowflake">🌸</div>
+<div class="snowflake">🌸</div>
+<div class="snowflake">🌸</div>
+<div class="snowflake">🌸</div>
+<div class="snowflake">🌸</div>
+<div class="snowflake">🌸</div>
+<div class="snowflake">🌸</div>
+<div class="snowflake">🌸</div>
+<div class="snowflake">🌸</div>
+<div class="snowflake">🌸</div>
+<div class="snowflake">🌸</div>
+<div class="snowflake">🌸</div>
+<div class="snowflake">🌸</div>
+<div class="snowflake">🌸</div>
+<div class="snowflake">🌸</div>
+<div class="snowflake">🌸</div>
+<div class="snowflake">🌸</div>
+<div class="snowflake">🌸</div>
+<div class="snowflake">🌸</div>
+<div class="snowflake">🌸</div>
+<div class="snowflake">🌸</div>
+<div class="snowflake">🌸</div>
+<div class="snowflake">🌸</div>
+<div class="snowflake">🌸</div>
+
+                    </div>
+          <div class="row">
+			<div class="col-md-6 ml-auto mr-auto text-center">
